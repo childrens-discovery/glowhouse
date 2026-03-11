@@ -1,3 +1,5 @@
+const accents = ["#F8C264", "#52CCAB", "#FF734F", "#2159B4", "#FFB8B0", "#F8C264"];
+
 const features = [
   { emoji: "☀️", title: "Real Solar Panels", desc: "Cover the panel with your hand and watch the power drop instantly. See the direct connection between light and energy." },
   { emoji: "🔋", title: "Working Battery", desc: "Store sunshine for later. Run your house through the night and discover how batteries keep homes powered." },
@@ -22,9 +24,21 @@ const FeaturesGrid = () => {
           {features.map((f, i) => (
             <div
               key={i}
-              className="rounded-card bg-white p-6 text-center shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg"
+              className="group relative rounded-card bg-white p-6 pt-8 text-center shadow-md transition-all duration-[250ms] ease-in-out hover:-translate-y-1.5 hover:shadow-xl"
+              style={{ borderTop: `2px solid transparent` }}
+              onMouseEnter={(e) => (e.currentTarget.style.borderTopColor = accents[i])}
+              onMouseLeave={(e) => (e.currentTarget.style.borderTopColor = "transparent")}
             >
-              <div className="text-5xl leading-none mb-4">{f.emoji}</div>
+              {/* Accent tag */}
+              <span
+                className="absolute top-3 right-3 rounded-pill px-2.5 py-0.5 font-display text-[11px] uppercase tracking-wide text-white"
+                style={{ backgroundColor: accents[i] }}
+              >
+                Hands-On
+              </span>
+              <div className="text-5xl leading-none mb-4 transition-transform duration-[250ms] ease-in-out group-hover:scale-[1.15]">
+                {f.emoji}
+              </div>
               <h3 className="font-display text-xl text-blue">{f.title}</h3>
               <p className="font-body mt-2 text-[15px] leading-relaxed text-navy/80">{f.desc}</p>
             </div>
