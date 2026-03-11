@@ -34,14 +34,14 @@ const HeroSection = () => {
             Try the Challenges
           </a>
           <a
-            href="#register"
+            href="mailto:info@childrensdiscovery.org.au?subject=G.L.O.W.%20House%20—%20Register%20Interest"
             className="font-display rounded-pill bg-yellow px-8 py-3 text-sm uppercase tracking-wider text-blue transition-transform hover:scale-105"
           >
             Register Interest
           </a>
         </div>
 
-        {/* 3D model placeholder with shimmer */}
+        {/* 3D model embed */}
         <div className="mx-auto mt-12 max-w-xl overflow-hidden rounded-lg border-2 border-white/20 aspect-video">
           <iframe
             title="G.L.O.W. House 3D Model"
