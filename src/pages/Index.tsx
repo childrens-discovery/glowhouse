@@ -4,7 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import FeaturesGrid from "@/components/FeaturesGrid";
 import HowItWorks from "@/components/HowItWorks";
 import ImpactStats from "@/components/ImpactStats";
-import RegisterForm from "@/components/RegisterForm";
+import RegisterSection from "@/components/RegisterSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -17,7 +17,7 @@ const Index = () => {
         <FeaturesGrid />
         <HowItWorks />
         <ImpactStats />
-        <RegisterForm />
+        <RegisterSection />
       </main>
       <Footer />
     </div>

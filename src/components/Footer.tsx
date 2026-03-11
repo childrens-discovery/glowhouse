@@ -1,3 +1,4 @@
+import logo from "@/assets/logo-CD-web.svg";
 import { Circle, Arc, PlusCross } from "./BrandShapes";
 
 const Footer = () => {
@@ -8,8 +9,8 @@ const Footer = () => {
       <PlusCross className="absolute bottom-6 right-1/4 opacity-10" color="#52CCAB" size={35} />
 
       <div className="relative mx-auto max-w-4xl text-center">
-        <p className="font-display text-[22px] text-white">🧪 Children's Discovery</p>
-        <p className="font-body mt-2 text-[15px] italic text-coral">The Science of Play</p>
+        <img src={logo} alt="Children's Discovery" className="mx-auto h-12" />
+        <p className="font-body mt-3 text-[15px] italic text-coral">The Science of Play</p>
         <div className="mx-auto my-5 h-px w-16 bg-white/30" />
         <p className="font-body text-[13px] text-white/60">
           © 2026 Children's Discovery. All rights reserved.
