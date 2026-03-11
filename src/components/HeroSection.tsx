@@ -3,16 +3,20 @@ import { RoundedStar, Arc, PlusCross } from "./BrandShapes";
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden bg-blue px-4 py-20 md:py-28">
-      {/* Decorative shapes */}
-      <RoundedStar className="absolute top-8 left-6 opacity-20" color="#FAF2E5" size={50} />
-      <Arc className="absolute top-12 right-8 opacity-20 rotate-90" color="#F8C264" size={70} />
-      <PlusCross className="absolute bottom-10 left-10 opacity-15" color="#FAF2E5" size={40} />
-      <RoundedStar className="absolute bottom-16 right-12 opacity-15" color="#F8C264" size={55} />
+      {/* Floating brand shapes */}
+      <RoundedStar className="absolute top-8 left-6 opacity-20 animate-float" color="#FAF2E5" size={50} />
+      <Arc className="absolute top-12 right-8 opacity-20 rotate-90 animate-float-delay-1" color="#F8C264" size={70} />
+      <PlusCross className="absolute bottom-10 left-10 opacity-15 animate-float-delay-2" color="#FAF2E5" size={40} />
+      <RoundedStar className="absolute bottom-16 right-12 opacity-15 animate-float-delay-3" color="#F8C264" size={55} />
 
       <div className="relative mx-auto max-w-3xl text-center">
-        <h1 className="font-display text-5xl uppercase text-white md:text-7xl lg:text-[72px] leading-tight">
-          G.L.O.W. House
-        </h1>
+        {/* Headline with glow */}
+        <div className="relative inline-block">
+          <div className="absolute inset-0 -inset-x-16 -inset-y-8 animate-glow-pulse rounded-full bg-[radial-gradient(ellipse_at_center,_#F8C26433_0%,_transparent_70%)] blur-2xl" />
+          <h1 className="relative font-display text-5xl uppercase text-white md:text-7xl lg:text-[72px] leading-tight">
+            G.L.O.W. House
+          </h1>
+        </div>
         <p className="font-display mt-3 text-2xl text-coral md:text-[28px]">
           Green Lighting Our World
         </p>
@@ -37,13 +41,18 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="mx-auto mt-12 max-w-xl rounded-lg border-2 border-white/30 bg-white/10 p-8 backdrop-blur-sm">
-          <p className="font-body text-white/80 text-base">
-            [ 3D Model of the G.L.O.W. House — Click and drag to rotate ]
-          </p>
-          <p className="font-body mt-3 text-sm italic text-white/50">
-            Interactive 3D model coming soon.
-          </p>
+        {/* 3D model placeholder with shimmer */}
+        <div className="relative mx-auto mt-12 max-w-xl overflow-hidden rounded-lg border-2 border-dashed border-white/40 p-10">
+          <div className="absolute inset-0 animate-shimmer bg-[length:200%_100%] bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.06)_37%,transparent_63%)]" />
+          <div className="relative">
+            <div className="text-4xl">☀️</div>
+            <p className="font-body mt-3 text-base italic text-white">
+              Interactive 3D Model
+            </p>
+            <p className="font-body mt-1 text-xs italic text-white/40">
+              Coming soon
+            </p>
+          </div>
         </div>
       </div>
     </section>
