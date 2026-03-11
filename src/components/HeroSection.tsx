@@ -42,17 +42,15 @@ const HeroSection = () => {
         </div>
 
         {/* 3D model placeholder with shimmer */}
-        <div className="relative mx-auto mt-12 max-w-xl overflow-hidden rounded-lg border-2 border-dashed border-white/40 p-10">
-          <div className="absolute inset-0 animate-shimmer bg-[length:200%_100%] bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.06)_37%,transparent_63%)]" />
-          <div className="relative">
-            <div className="text-4xl">☀️</div>
-            <p className="font-body mt-3 text-base italic text-white">
-              Interactive 3D Model
-            </p>
-            <p className="font-body mt-1 text-xs italic text-white/40">
-              Coming soon
-            </p>
-          </div>
+        <div className="mx-auto mt-12 max-w-xl overflow-hidden rounded-lg border-2 border-white/20 aspect-video">
+          <iframe
+            title="G.L.O.W. House 3D Model"
+            className="h-full w-full"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoplay; fullscreen; xr-spatial-tracking"
+            src="https://sketchfab.com/models/69efe3bf3bab43b597715001b34fc613/embed"
+          />
         </div>
       </div>
     </section>
