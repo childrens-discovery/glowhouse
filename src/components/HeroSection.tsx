@@ -21,7 +21,7 @@ const HeroSection = () => {
           Green Lighting Our World
         </p>
         <p className="font-body mx-auto mt-6 max-w-[620px] text-base text-white/90 md:text-lg leading-relaxed">
-          A hands-on energy education program where children aged 7–14 explore solar power,
+          A hands-on energy education program where children aged 7+ explore solar power,
           battery storage, and clean energy homes through play-based discovery. Solar and battery
           together provide a complete energy solution — for your home and for society.
         </p>
