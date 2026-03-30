@@ -24,8 +24,8 @@ const DigitalPlatform = () => {
           </h2>
           <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow" />
           <p className="font-body mx-auto mt-6 max-w-[640px] text-[17px] leading-relaxed text-navy/80">
-            A fully featured web-based companion accessible on any tablet or laptop — no download or
-            account required. A digital twin of the physical kit, extending learning in every direction.
+            A fully featured web-based companion accessible on any tablet or laptop with no download or
+            account needed. A digital twin of the physical kit, extending learning in every direction.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ const DigitalPlatform = () => {
           </h2>
           <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow" />
           <p className="font-body mx-auto mt-6 max-w-[560px] text-[17px] leading-relaxed text-navy/80">
-            Everything included with every kit — ready to use from day one.
+            Everything included with every kit, ready to use from day one.
           </p>
         </div>
 

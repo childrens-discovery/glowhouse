@@ -5,7 +5,7 @@ const stats = [
 ];
 
 const philosophy = [
-  { title: "Hands beat textbooks", desc: "Children retain information when they discover it through direct experience. Every concept is encountered through physical action, not instruction." },
+  { title: "Hands beat textbooks", desc: "Children retain information when they discover it through direct experience. Every concept is encountered through physical action and genuine curiosity." },
   { title: "Frustration is a feature", desc: "Real learning happens when things don't work first time. Challenges are designed to be genuinely hard and produce the satisfaction that only comes from solving real problems." },
   { title: "Play is serious business", desc: "Twenty-five years of evidence shows that playful, facilitated learning produces deeper conceptual understanding and longer retention than direct instruction alone." },
   { title: "Facilitators are the difference", desc: "Program quality comes from our people. Children's Discovery facilitators are trained professionals who know how to create the conditions for genuine discovery." },
@@ -42,7 +42,7 @@ const AboutCD = () => {
           <span className="font-display text-3xl">★</span>
           <h3 className="font-display mt-2 text-xl text-yellow">Ausgrid Community Award Winner 2026</h3>
           <p className="font-body mt-3 text-sm leading-relaxed text-white/80">
-            Recognised by Ausgrid — one of Australia's largest electricity distribution networks — for
+            Recognised by Ausgrid, one of Australia's largest electricity distribution networks, for
             outstanding contribution to community energy education.
           </p>
         </div>

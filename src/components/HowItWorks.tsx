@@ -4,7 +4,7 @@ const steps = [
   { title: "Find a G.L.O.W. House Near You", desc: "From mid-2026, available at 500 libraries and community groups across Australia. Register below for updates." },
   { title: "Book Your Session", desc: "Venues will offer school holiday programs, workshops, and drop-in times. Check your local library's schedule." },
   { title: "Arrive Curious, Give It a Go", desc: "The house snaps together in 5 minutes. Then jump into challenges: solar experiments, battery tests, blackout scenarios." },
-  { title: "Experiment & Discover", desc: "Try the challenges or explore your own questions. There's no wrong way to learn — it's all about doing and understanding." },
+  { title: "Experiment & Discover", desc: "Try the challenges or explore your own questions. It's all about doing, discovering, and understanding." },
   { title: "Become an Energy Champion", desc: "Leave ready to talk to your family about how solar and battery create a complete energy solution — for homes and for society." },
 ];
 

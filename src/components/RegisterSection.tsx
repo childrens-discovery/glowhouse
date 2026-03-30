@@ -10,7 +10,7 @@ const RegisterSection = () => {
         <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow" />
         <p className="font-body mx-auto mt-6 max-w-[560px] text-base leading-relaxed text-navy/80">
           Be the first to know when G.L.O.W. Houses arrive in your area. Get in touch for updates
-          on availability, training, and program news. Every child is welcome — we'd love to hear
+          on availability, training, and program news. Every child is welcome and we'd love to hear
           from you.
         </p>
 
@@ -23,11 +23,11 @@ const RegisterSection = () => {
             <div className="text-5xl mb-4">📬</div>
             <h3 className="font-display text-xl text-blue">Get in Touch</h3>
             <p className="font-body mt-3 text-base leading-relaxed text-navy/70">
-              Send us an email and we'll keep you updated on everything G.L.O.W. House —
+              Send us an email and we'll keep you updated on everything G.L.O.W. House,
               including when sessions open near you.
             </p>
             <a
-              href="mailto:info@childrensdiscovery.org.au?subject=G.L.O.W.%20House%20—%20Register%20Interest"
+              href="mailto:info@childrensdiscovery.org.au?subject=G.L.O.W.%20House%20Register%20Interest"
               className="font-display mt-6 inline-block w-full rounded-pill bg-coral py-3.5 text-sm uppercase tracking-wider text-white transition-transform hover:scale-[1.02] active:scale-[0.98]"
             >
               Email Us to Register
