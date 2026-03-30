@@ -34,7 +34,7 @@ const HeroSection = () => {
             Try the Challenges
           </a>
           <a
-            href="mailto:info@childrensdiscovery.org.au?subject=G.L.O.W.%20House%20—%20Register%20Interest"
+            href="mailto:info@childrensdiscovery.org.au?subject=G.L.O.W.%20House%20Register%20Interest"
             className="font-display rounded-pill bg-yellow px-8 py-3 text-sm uppercase tracking-wider text-blue transition-transform hover:scale-105"
           >
             Register Interest

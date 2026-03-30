@@ -18,12 +18,12 @@ const outcomes = [
   },
   {
     title: "Systems Thinking",
-    desc: "Home energy interacts with weather, time of day, household behaviour and the wider electricity grid. Students manage a dynamic, interconnected system — not a set of isolated switches.",
+    desc: "Home energy interacts with weather, time of day, household behaviour and the wider electricity grid. Students manage a dynamic, interconnected system where every part affects the whole.",
     icon: "🌐",
   },
   {
     title: "Economic & Environmental Reasoning",
-    desc: "Challenges directly connect energy decisions to cost and carbon outcomes. Students experience — not just read about — the relationship between smart choices, lower bills and reduced emissions.",
+    desc: "Challenges directly connect energy decisions to cost and carbon outcomes. Students experience the relationship between smart choices, lower bills and reduced emissions first-hand.",
     icon: "💰",
   },
   {

@@ -13,7 +13,7 @@ const specs = [
   { label: "Assembly", value: "5 minutes, no tools" },
   { label: "Power", value: "USB-C (5V, 20W)" },
   { label: "Materials", value: "3D-printed, child-safe" },
-  { label: "Packed size", value: "A3 envelope — ships flat" },
+  { label: "Packed size", value: "A3 envelope, ships flat" },
   { label: "App", value: "Any browser, any device" },
 ];
 

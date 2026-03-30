@@ -12,7 +12,7 @@ const levelColors: Record<string, string> = {
 const challenges = [
   { num: 1, title: "Morning Power Rush", level: "STARTER" as const, scenario: "7 AM: solar rising, battery at 60%. Keep grid draw below 2 kW as the family wakes up.", focus: "Energy sources · Cause & effect" },
   { num: 2, title: "Solar Power Champion", level: "STARTER" as const, scenario: "12 PM clear sky. Achieve zero grid draw for five consecutive minutes using solar alone.", focus: "Renewable energy · Data observation" },
-  { num: 3, title: "Night Survival", level: "MODERATE" as const, scenario: "8 PM: solar offline, battery at 80%. Power the evening on storage alone — not one watt from the grid.", focus: "Energy storage · Strategic planning" },
+  { num: 3, title: "Night Survival", level: "MODERATE" as const, scenario: "8 PM: solar offline, battery at 80%. Power the entire evening on storage alone. Can you keep the grid at zero?", focus: "Energy storage · Strategic planning" },
   { num: 4, title: "Electric Car Race", level: "MODERATE" as const, scenario: "Charge the EV from 20% to 80% at the lowest possible cost. Three charging strategies compete.", focus: "Electrification · Financial maths" },
   { num: 5, title: "Heatwave Survival", level: "ADVANCED" as const, scenario: "It's 38°C, AC must run. Keep grid below 1.5 kW as the battery depletes.", focus: "Demand management · Systems thinking" },
   { num: 6, title: "Birthday Party Power", level: "MODERATE" as const, scenario: "3 PM: 90% solar. Run party loads and simultaneously push excess generation into the battery.", focus: "Load management · Optimisation" },
@@ -39,7 +39,7 @@ const ChallengesSection = () => {
           <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow" />
           <p className="font-body mx-auto mt-6 max-w-[640px] text-[17px] leading-relaxed text-white/85">
             Real-family narrative scenarios. Students physically manage the house while reading the
-            live HEMS display. Challenges build skills progressively — or work as standalone sessions.
+            live HEMS display. Challenges build skills progressively and also work as standalone sessions.
           </p>
         </div>
 

@@ -22,7 +22,7 @@ const ImpactStats = () => {
         </div>
 
         <p className="font-body mx-auto mt-12 max-w-[600px] text-[17px] leading-relaxed text-white/90">
-          Coming to communities across Australia — from capital cities to regional areas. A G.L.O.W.
+          Coming to communities across Australia, from capital cities to regional areas. A G.L.O.W.
           House will be near you, ready for curious minds to make the planet smile.
         </p>
       </div>
