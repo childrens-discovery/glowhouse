@@ -15,18 +15,19 @@ const AboutSection = () => {
           <div className="md:col-span-2">
             <div className="space-y-5 font-body text-[17px] leading-relaxed text-navy">
               <p>
-                The G.L.O.W. House features working solar panels, battery storage, and home energy
-                systems — all in a miniature house that snaps together in under 5 minutes.
+                G.L.O.W. House is a flat-packed, 3D-printed model home that assembles in five minutes
+                and brings every major system of a modern all-electric household to life — from solar
+                panels and battery storage to EV charging, hot water, air conditioning and smart lighting.
               </p>
               <p>
-                Try the challenges, experiment with real equipment, and discover how solar and
-                battery deliver a complete energy solution for homes and for society as a whole.
+                Every component is connected to a live Home Energy Management System (HEMS) display
+                showing real-time kilowatt readings. Every action has an immediate, visible consequence.
+                Solar and battery together provide a complete energy solution — for your home and for society.
               </p>
               <p>
-                The G.L.O.W. House builds climate confidence — not anxiety — by showing that
-                solutions exist right now. Come for one challenge or try them all. Every child is
-                welcome. We nurture creativity, confidence, and a can-do attitude — adapting to
-                every interest and skill level.
+                The G.L.O.W. House builds climate confidence — not anxiety — by showing that solutions
+                exist right now. Every child is welcome. We nurture creativity, confidence, and a
+                can-do attitude — adapting to every interest and skill level.
               </p>
             </div>
           </div>
